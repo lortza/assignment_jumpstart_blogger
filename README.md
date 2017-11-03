@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a Rails demo app based on the jumpstartlab [blogger tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html)
 
-Things you may want to cover:
+I've built it as part of the Viking Code School curriculum
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Ruby version: 2.4.2
+* Rails: 5.0.6
