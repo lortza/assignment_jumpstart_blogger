@@ -1,5 +1,9 @@
 class ArticlesController < ApplicationController
 
+  include ArticlesHelper
+
+  before_action :set_article, only: [:show, :edit, :update, :destroy]
+
   def index
     @articles = Article.all
   end
