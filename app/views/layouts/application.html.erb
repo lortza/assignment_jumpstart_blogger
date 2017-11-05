@@ -13,6 +13,7 @@
       <%= link_to 'Blogger', root_path %> |
       <%= link_to 'Blog Index', articles_path %>
     </nav>
+    <p class="flash"><%= flash.notice %></p>
     <%= yield %>
 <%= link_to "Create New Article", new_article_path, class: 'new_article' %>
 
