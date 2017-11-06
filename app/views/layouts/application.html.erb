@@ -15,7 +15,15 @@
     </nav>
     <p class="flash"><%= flash.notice %></p>
     <%= yield %>
-<%= link_to "Create New Article", new_article_path, class: 'new_article' %>
+    <%= link_to "Create New Article", new_article_path, class: 'new_article' %>
+    <hr>
+      <h6>
+        <% if logged_in? %>
+          <%= "Logged in as #{current_user.email}" %>
+        <% else %>
+          Logged out
+        <% end %>
+      </h6>
 
   </body>
 </html>
