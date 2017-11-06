@@ -3,6 +3,7 @@ class ArticlesController < ApplicationController
   include ArticlesHelper
 
   before_action :set_article, only: [:show, :edit, :update, :destroy]
+  before_action :require_login, only: [:new, :create, :edit]
 
   def index
     @articles = Article.all
